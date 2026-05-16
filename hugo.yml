@@ -1,0 +1,50 @@
+baseURL: ''
+languageCode: 'en-us'
+title: 'James Brickner'
+theme: paperMod
+
+
+menu: 
+  main: 
+
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 10
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+
+    - identifier: updates
+      name: Updates
+      url: /updates/
+      weight: 30
+
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
+
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 50
+
+params:
+  homeInfoParams:
+    Title: "James Brickner"
+    Content: >
+      I'm a mechanical engineering student focusing on manufacturing and design. 
+      This portfolio is a collection of my work from courses and personal projects. 
+
+  ShowBreadCrumbs: true
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/james-brickner/"
+    - name: "github"
+      url: "https://github.com/jbrickner007"
+    - name: "email"
+      url: "brickner.100@buckeyemail.osu.edu"
