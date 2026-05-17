@@ -2,27 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/baja/</loc>
+    <loc>http://localhost:1313/tags/coursework/</loc>
+    <lastmod>2026-05-15T18:18:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/me-2900/</loc>
+    <lastmod>2026-05-15T18:18:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-15T18:18:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2026-05-15T18:18:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-05-15T18:18:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/baja/</loc>
     <lastmod>2025-12-08T18:18:46+02:00</lastmod>
   </url><url>
-    <loc>/projects/driverselectable/</loc>
+    <loc>http://localhost:1313/projects/driverselectable/</loc>
     <lastmod>2025-12-08T18:18:46+02:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2025-12-08T18:18:46+02:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>/projects/</loc>
-    <lastmod>2025-12-08T18:18:46+02:00</lastmod>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-12-08T18:18:46+02:00</lastmod>
+    <loc>http://localhost:1313/resume/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/updates/</loc>
   </url><url>
-    <loc>/contact/</loc>
-  </url><url>
-    <loc>/resume/</loc>
-  </url><url>
-    <loc>/updates/</loc>
+    <loc>http://localhost:1313/work/</loc>
   </url>
 </urlset>

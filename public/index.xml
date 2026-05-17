@@ -2,43 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>James Brickner</title>
-    <link>/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on James Brickner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 18:18:46 +0200</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 18:18:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hands Free Kitchen Timer</title>
+      <link>http://localhost:1313/projects/me-2900/</link>
+      <pubDate>Fri, 15 May 2026 18:18:46 +0200</pubDate>
+      <guid>http://localhost:1313/projects/me-2900/</guid>
+      <description>&lt;h1 id=&#34;hands-free-kitchen-timer&#34;&gt;Hands Free Kitchen Timer&lt;/h1&gt;
+&lt;p&gt;For my mechanical design class, I designed the software using an Arduino Uno to create a pre-production prototype handless kitchen timer. It utilizes an ultrasonic sensor for distance sensing and can be used for not only those with dirty hands, but also disabled people and elderly with issues being tactile.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Driver Selectable</title>
-      <link>/projects/driverselectable/</link>
+      <link>http://localhost:1313/projects/driverselectable/</link>
       <pubDate>Mon, 08 Dec 2025 18:18:46 +0200</pubDate>
-      <guid>/projects/driverselectable/</guid>
+      <guid>http://localhost:1313/projects/driverselectable/</guid>
       <description>&lt;h1 id=&#34;driver-selectable-4wd&#34;&gt;Driver Selectable 4WD&lt;/h1&gt;
 &lt;h2 id=&#34;dec-2025&#34;&gt;Dec 2025&lt;/h2&gt;
 &lt;p&gt;I had the oportunity to work on the Ohio State Baja Buckeyes&amp;rsquo; drivetrain. Our team wanted to implement a driver selectable 4WD system and redesigned the front gearbox as well as selector to accommodate based off the first iteration of the system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/contact/</guid>
-      <description>Contact me at brickner.100@buckeyemail.osu.edu</description>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;If you have any questions or just want to reach out, feel free to at &lt;a href=&#34;mailto:brickner.100@buckeyemail.osu.edu&#34;&gt;brickner.100@buckeyemail.osu.edu&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;other-options&#34;&gt;Other options:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/james-brickner/&#34;&gt;https://www.linkedin.com/in/james-brickner/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&#34;https://github.com/jbrickner007&#34;&gt;https://github.com/jbrickner007&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Resume</title>
-      <link>/resume/</link>
+      <link>http://localhost:1313/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/resume/</guid>
-      <description>&lt;iframe src=&#34;/resume.pdf&#34; width=&#34;100%&#34; height=&#34;800px&#34; style=&#34;border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);&#34;&gt;
-    This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;/resume.pdf&#34;&gt;Download PDF&lt;/a&gt;.
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;iframe src=&#34;http://localhost:1313/resume.pdf&#34; width=&#34;100%&#34; height=&#34;800px&#34; style=&#34;border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);&#34;&gt;
+    This browser does not support PDFs. Please download the PDF to view it: &lt;a href=&#34;http://localhost:1313/resume.pdf&#34;&gt;Download PDF&lt;/a&gt;.
 &lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Updates</title>
-      <link>/updates/</link>
+      <link>http://localhost:1313/updates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/updates/</guid>
-      <description></description>
+      <guid>http://localhost:1313/updates/</guid>
+      <description>&lt;p&gt;I have concluded the Fisher Global Consulting program, successfully streamlining a marketing agencies scoring system using AI tools.&lt;/p&gt;
+&lt;p&gt;(I will end up having it&amp;rsquo;s own post system but that&amp;rsquo;s later)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Work</title>
+      <link>http://localhost:1313/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work/</guid>
+      <description>&lt;h3 id=&#34;burns-and-mcdonnell&#34;&gt;Burns and McDonnell&lt;/h3&gt;
+&lt;h4 id=&#34;mechanical-engineering-intern---columbus-ohio---------------june-2026---present&#34;&gt;Mechanical Engineering Intern - Columbus, Ohio               June 2026 - Present&lt;/h4&gt;
+&lt;h3 id=&#34;frankfurt-rheinmain-gmbh&#34;&gt;Frankfurt RheinMain GmbH&lt;/h3&gt;
+&lt;h4 id=&#34;project-lead-consultant---frankfurt-am-main-germany&#34;&gt;Project Lead Consultant - Frankfurt am Main, Germany&lt;/h4&gt;
+&lt;h3 id=&#34;sauer-group-inc&#34;&gt;Sauer Group, Inc.&lt;/h3&gt;
+&lt;h4 id=&#34;bim-and-cad-coordinator---columbus-ohio&#34;&gt;BIM and CAD Coordinator - Columbus, Ohio&lt;/h4&gt;
+&lt;h3 id=&#34;codeninjas&#34;&gt;CodeNinjas&lt;/h3&gt;
+&lt;h4 id=&#34;coding-instructor---powell-ohio&#34;&gt;Coding Instructor - Powell, Ohio&lt;/h4&gt;</description>
     </item>
   </channel>
 </rss>

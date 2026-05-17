@@ -12,20 +12,25 @@ menu:
       url: /resume/
       weight: 10
 
+    - identifier: work
+      name: Work
+      url: /work/
+      weight: 20
+
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 20
+      weight: 30
 
     - identifier: updates
       name: Updates
       url: /updates/
-      weight: 30
+      weight: 40
 
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 40
+      weight: 50
 
     # - identifier: tags
     #   name: Tags
@@ -41,10 +46,12 @@ params:
 
   ShowBreadCrumbs: true
 
+  favicon: "/favicon.png"
+
   socialIcons:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/james-brickner/"
     - name: "github"
       url: "https://github.com/jbrickner007"
     - name: "email"
-      url: "brickner.100@buckeyemail.osu.edu"
+      url: "mailto:brickner.100@buckeyemail.osu.edu"

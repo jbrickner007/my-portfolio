@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Baja on James Brickner</title>
-    <link>/tags/baja/</link>
+    <link>http://localhost:1313/tags/baja/</link>
     <description>Recent content in Baja on James Brickner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Dec 2025 18:18:46 +0200</lastBuildDate>
-    <atom:link href="/tags/baja/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/baja/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Driver Selectable</title>
-      <link>/projects/driverselectable/</link>
+      <link>http://localhost:1313/projects/driverselectable/</link>
       <pubDate>Mon, 08 Dec 2025 18:18:46 +0200</pubDate>
-      <guid>/projects/driverselectable/</guid>
+      <guid>http://localhost:1313/projects/driverselectable/</guid>
       <description>&lt;h1 id=&#34;driver-selectable-4wd&#34;&gt;Driver Selectable 4WD&lt;/h1&gt;
 &lt;h2 id=&#34;dec-2025&#34;&gt;Dec 2025&lt;/h2&gt;
 &lt;p&gt;I had the oportunity to work on the Ohio State Baja Buckeyes&amp;rsquo; drivetrain. Our team wanted to implement a driver selectable 4WD system and redesigned the front gearbox as well as selector to accommodate based off the first iteration of the system.&lt;/p&gt;</description>

@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on James Brickner</title>
-    <link>/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on James Brickner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 18:18:46 +0200</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 May 2026 18:18:46 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coursework</title>
+      <link>http://localhost:1313/tags/coursework/</link>
+      <pubDate>Fri, 15 May 2026 18:18:46 +0200</pubDate>
+      <guid>http://localhost:1313/tags/coursework/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Baja</title>
-      <link>/tags/baja/</link>
+      <link>http://localhost:1313/tags/baja/</link>
       <pubDate>Mon, 08 Dec 2025 18:18:46 +0200</pubDate>
-      <guid>/tags/baja/</guid>
+      <guid>http://localhost:1313/tags/baja/</guid>
       <description></description>
     </item>
   </channel>
