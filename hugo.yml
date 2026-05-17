@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://jamesbrickner.netlify.app'
 languageCode: 'en-us'
 title: 'James Brickner'
 theme: paperMod
