@@ -24,6 +24,14 @@
 &lt;p&gt;For my mechanical design class, I designed the software using an Arduino Uno to create a pre-production prototype handless kitchen timer. It utilizes an ultrasonic sensor for distance sensing and can be used for not only those with dirty hands, but also disabled people and elderly with issues being tactile.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>STEP</title>
+      <link>http://localhost:1313/updateposts/step/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updateposts/step/</guid>
+      <description>&lt;p&gt;I have been selected to participate in the 2025 STEP program through the Ohio State University. This program has funded my international travel to Frankfurt, Germany for the month of May.&lt;/p&gt;
+&lt;p&gt;During this time, I will be working on a team of students to provide consulting and marketing services to a local foreign investment agency.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Baja SAE Business Presentation</title>
       <link>http://localhost:1313/projects/_template/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
@@ -49,14 +57,6 @@
       <description>&lt;h1 id=&#34;driver-selectable-4wd&#34;&gt;Driver Selectable 4WD&lt;/h1&gt;
 &lt;h2 id=&#34;dec-2025&#34;&gt;Dec 2025&lt;/h2&gt;
 &lt;p&gt;I had the oportunity to work on the Ohio State Baja Buckeyes&amp;rsquo; drivetrain. Our team wanted to implement a driver selectable 4WD system and redesigned the front gearbox as well as selector to accommodate based off the first iteration of the system.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>STEP</title>
-      <link>http://localhost:1313/updateposts/step/</link>
-      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/updateposts/step/</guid>
-      <description>&lt;p&gt;I have been approved to participate in the 2025 STEP program through the Ohio State University. This program has funded my international travel to&lt;/p&gt;
-&lt;p&gt;I will be traveling to Germany for the month of May, where I will be a project manager on a team of students for a foreign investment marketing agency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>

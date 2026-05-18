@@ -5,6 +5,6 @@ draft: false
 ShowBreadCrumbs: false
 ---
 
-I have been approved to participate in the 2025 STEP program through the Ohio State University. This program has funded my international travel to 
+I have been selected to participate in the 2025 STEP program through the Ohio State University. This program has funded my international travel to Frankfurt, Germany for the month of May. 
 
-I will be traveling to Germany for the month of May, where I will be a project manager on a team of students for a foreign investment marketing agency.
+During this time, I will be working on a team of students to provide consulting and marketing services to a local foreign investment agency.
