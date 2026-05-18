@@ -38,15 +38,20 @@ menu:
     #   weight: 50
 
 params:
+  disableAnchoredHeadings: true
   homeInfoParams:
     Title: "James Brickner"
     Content: >
-      I'm a mechanical engineering student focusing on manufacturing and design. 
-      This portfolio is a collection of my work from courses and personal projects. 
+      A mechanical engineering student with a business minor through the Honors Integrated Business and Engineering program at Ohio State University.  
+     
 
-  ShowBreadCrumbs: true
+      I am intrigued by complex problem solving, with leadership experience in design, manufacturing, testing, marketing and consulting.  
+      This portfolio is a showcase of my work, from courses to clubs and personal projects. 
 
-  favicon: "/favicon.png"
+
+  assets:
+    favicon: "/favicon.png"
+  ShowBreadCrumbs: false
 
   socialIcons:
     - name: "linkedin"

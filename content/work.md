@@ -1,17 +1,22 @@
 ---
-title: "Work"
+title: "Work Experience"
 layout: "work"
 ShowBreadCrumbs: false
+experiences:
+  - title: "Mechanical Engineering Intern"
+    company: "Burns and McDonnell"
+    location: "Columbus, Ohio"
+    date: "June 2026 - Present"
+  - title: "BIM and CAD Coordinator"
+    company: "Sauer Group, Inc."
+    location: "Columbus, Ohio"
+    date: "May 2024 - Present"
+  - title: "Project Manager"
+    company: "Frankfurt RheinMain GmbH (Fisher Global Consulting)"
+    location: "Frankfurt am Main, Germany"
+    date: "May 2026"
+  - title: "Coding Instructor"
+    company: "CodeNinjas"
+    location: "Powell, Ohio"
+    date: "July 2021 - December 2022"
 ---
-
-### Burns and McDonnell                     
-#### Mechanical Engineering Intern - Columbus, Ohio               June 2026 - Present
-
-### Frankfurt RheinMain GmbH 
-#### Project Lead Consultant - Frankfurt am Main, Germany 
-
-### Sauer Group, Inc. 
-#### BIM and CAD Coordinator - Columbus, Ohio
-
-### CodeNinjas 
-#### Coding Instructor - Powell, Ohio  

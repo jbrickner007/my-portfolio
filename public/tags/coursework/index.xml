@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/coursework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hands Free Kitchen Timer</title>
-      <link>http://localhost:1313/projects/me-2900/</link>
+      <link>http://localhost:1313/projects/arduino/</link>
       <pubDate>Fri, 15 May 2026 18:18:46 +0200</pubDate>
-      <guid>http://localhost:1313/projects/me-2900/</guid>
+      <guid>http://localhost:1313/projects/arduino/</guid>
       <description>&lt;h1 id=&#34;hands-free-kitchen-timer&#34;&gt;Hands Free Kitchen Timer&lt;/h1&gt;
 &lt;p&gt;For my mechanical design class, I designed the software using an Arduino Uno to create a pre-production prototype handless kitchen timer. It utilizes an ultrasonic sensor for distance sensing and can be used for not only those with dirty hands, but also disabled people and elderly with issues being tactile.&lt;/p&gt;</description>
     </item>

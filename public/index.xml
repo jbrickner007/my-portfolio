@@ -6,18 +6,43 @@
     <description>Recent content on James Brickner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 18:18:46 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Fisher Global Consulting Program</title>
+      <link>http://localhost:1313/updateposts/fisher-global-consulting/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updateposts/fisher-global-consulting/</guid>
+      <description>&lt;p&gt;I have concluded the Fisher Global Consulting program, successfully streamlining a marketing agency&amp;rsquo;s scoring system using AI tools.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hands Free Kitchen Timer</title>
-      <link>http://localhost:1313/projects/me-2900/</link>
+      <link>http://localhost:1313/projects/arduino/</link>
       <pubDate>Fri, 15 May 2026 18:18:46 +0200</pubDate>
-      <guid>http://localhost:1313/projects/me-2900/</guid>
+      <guid>http://localhost:1313/projects/arduino/</guid>
       <description>&lt;h1 id=&#34;hands-free-kitchen-timer&#34;&gt;Hands Free Kitchen Timer&lt;/h1&gt;
 &lt;p&gt;For my mechanical design class, I designed the software using an Arduino Uno to create a pre-production prototype handless kitchen timer. It utilizes an ultrasonic sensor for distance sensing and can be used for not only those with dirty hands, but also disabled people and elderly with issues being tactile.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Driver Selectable</title>
+      <title>Baja SAE Business Presentation</title>
+      <link>http://localhost:1313/projects/_template/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/_template/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-heading-1&#34;&gt;This is a heading 1&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-a-heading-2&#34;&gt;This is a heading 2&lt;/h2&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Baja SAE Business Presentation</title>
+      <link>http://localhost:1313/projects/blackjack-feh/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blackjack-feh/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-heading-1&#34;&gt;This is a heading 1&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-a-heading-2&#34;&gt;This is a heading 2&lt;/h2&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Driver Selectable 4WD</title>
       <link>http://localhost:1313/projects/driverselectable/</link>
       <pubDate>Mon, 08 Dec 2025 18:18:46 +0200</pubDate>
       <guid>http://localhost:1313/projects/driverselectable/</guid>
@@ -52,21 +77,16 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/updates/</guid>
       <description>&lt;p&gt;I have concluded the Fisher Global Consulting program, successfully streamlining a marketing agencies scoring system using AI tools.&lt;/p&gt;
-&lt;p&gt;(I will end up having it&amp;rsquo;s own post system but that&amp;rsquo;s later)&lt;/p&gt;</description>
+&lt;p&gt;(I will end up having it&amp;rsquo;s own post system but that&amp;rsquo;s later)&lt;/p&gt;
+&lt;p&gt;ideas: business presentation, FGC, Baja competition, certification in ansys?, burns and mcdonnell update.&lt;/p&gt;
+&lt;p&gt;include linkedin post link if necessary.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Work</title>
+      <title>Work Experience</title>
       <link>http://localhost:1313/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/work/</guid>
-      <description>&lt;h3 id=&#34;burns-and-mcdonnell&#34;&gt;Burns and McDonnell&lt;/h3&gt;
-&lt;h4 id=&#34;mechanical-engineering-intern---columbus-ohio---------------june-2026---present&#34;&gt;Mechanical Engineering Intern - Columbus, Ohio               June 2026 - Present&lt;/h4&gt;
-&lt;h3 id=&#34;frankfurt-rheinmain-gmbh&#34;&gt;Frankfurt RheinMain GmbH&lt;/h3&gt;
-&lt;h4 id=&#34;project-lead-consultant---frankfurt-am-main-germany&#34;&gt;Project Lead Consultant - Frankfurt am Main, Germany&lt;/h4&gt;
-&lt;h3 id=&#34;sauer-group-inc&#34;&gt;Sauer Group, Inc.&lt;/h3&gt;
-&lt;h4 id=&#34;bim-and-cad-coordinator---columbus-ohio&#34;&gt;BIM and CAD Coordinator - Columbus, Ohio&lt;/h4&gt;
-&lt;h3 id=&#34;codeninjas&#34;&gt;CodeNinjas&lt;/h3&gt;
-&lt;h4 id=&#34;coding-instructor---powell-ohio&#34;&gt;Coding Instructor - Powell, Ohio&lt;/h4&gt;</description>
+      <description></description>
     </item>
   </channel>
 </rss>

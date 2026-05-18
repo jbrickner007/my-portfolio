@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Updateposts on James Brickner</title>
+    <link>http://localhost:1313/updateposts/</link>
+    <description>Recent content in Updateposts on James Brickner</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/updateposts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fisher Global Consulting Program</title>
+      <link>http://localhost:1313/updateposts/fisher-global-consulting/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updateposts/fisher-global-consulting/</guid>
+      <description>&lt;p&gt;I have concluded the Fisher Global Consulting program, successfully streamlining a marketing agency&amp;rsquo;s scoring system using AI tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>template</title>
+      <link>http://localhost:1313/updateposts/_template/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updateposts/_template/</guid>
+      <description>&lt;p&gt;put some text here&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

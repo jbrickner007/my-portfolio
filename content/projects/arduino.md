@@ -7,6 +7,7 @@ cover:
     alt: "Cover image"
     caption: "Cover image"
 tags: ["Coursework"]
+ShowBreadCrumbs: true
 ---
 
 # Hands Free Kitchen Timer
