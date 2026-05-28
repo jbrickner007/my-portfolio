@@ -1,9 +1,9 @@
 ---
-date: '2026-05-15T18:18:46+02:00' # Date of the post
+date: '2025-04-21' # Date of the post
 draft: true # Set to true to hide this post
-title: 'Template'
+title: 'DineIQ'
 cover:
-    image: "cat.jpg"
+    image: "dineiq.png"
     alt: "Cover image"
     caption: "Cover image"
 tags: []

@@ -16,5 +16,13 @@
       <description>&lt;h1 id=&#34;hands-free-kitchen-timer&#34;&gt;Hands Free Kitchen Timer&lt;/h1&gt;
 &lt;p&gt;For my mechanical design class, I designed the software using an Arduino Uno to create a pre-production prototype handless kitchen timer. It utilizes an ultrasonic sensor for distance sensing and can be used for not only those with dirty hands, but also disabled people and elderly with issues being tactile.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Software Development Project: Blackjack Study Game</title>
+      <link>http://localhost:1313/projects/blackjack-feh/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blackjack-feh/</guid>
+      <description>&lt;p&gt;In my first semester of college, I partnered with fellow engineering student James Butts to create a blackjack game, with the twist that flashcards can be imported to help one study, &amp;ldquo;gamifying&amp;rdquo; the study process.&lt;/p&gt;
+&lt;p&gt;We were ultimately voted as best software in the class of 36 honors students, and presented to a panel at a showcase of the best projects from each section of stuents within the College of Engineering.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

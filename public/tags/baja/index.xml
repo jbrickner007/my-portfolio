@@ -6,16 +6,14 @@
     <description>Recent content in Baja on James Brickner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 18:18:46 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/baja/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Driver Selectable 4WD</title>
-      <link>http://localhost:1313/projects/driverselectable/</link>
-      <pubDate>Mon, 08 Dec 2025 18:18:46 +0200</pubDate>
-      <guid>http://localhost:1313/projects/driverselectable/</guid>
-      <description>&lt;h1 id=&#34;driver-selectable-4wd&#34;&gt;Driver Selectable 4WD&lt;/h1&gt;
-&lt;h2 id=&#34;dec-2025&#34;&gt;Dec 2025&lt;/h2&gt;
-&lt;p&gt;I had the oportunity to work on the Ohio State Baja Buckeyes&amp;rsquo; drivetrain. Our team wanted to implement a driver selectable 4WD system and redesigned the front gearbox as well as selector to accommodate based off the first iteration of the system.&lt;/p&gt;</description>
+      <title>Baja SAE Business Presentation</title>
+      <link>http://localhost:1313/projects/bprez/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/bprez/</guid>
+      <description>&lt;p&gt;Throughout the year, I joined the new business sub-team for Baja SAE and worked under guidance from the president of Baja Buckeyes and the Formula SAE team&amp;rsquo;s business lead to develop an RFP document for the business presentation portion of the competition, as well as an oral presentation that placed 10th out of 76 teams at the Oregon Competition.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

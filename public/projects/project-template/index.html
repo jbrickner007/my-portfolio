@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Project Title: High-Level Description | James Brickner</title>
+<meta name="keywords" content="Engineering, Hardware, Software">
+<meta name="description" content="
+tl;dr: A 1-2 sentence summary of what you built, why you built it, and the most impressive outcome. (e.g., &ldquo;Designed and built a custom 3D-printable robotic arm capable of sub-millimeter precision, reducing assembly time for X by 40%.&rdquo;)
+
+🎯 Project Overview
+
+Role: Lead Hardware Engineer / Solo Developer etc.
+Timeline: e.g., Fall 2025 (3 months)
+Tech Stack / Tools: SolidWorks, C&#43;&#43;, Python, Arduino, PCB Design, React
+Code/Repository: GitHub Link (If public)
+
+
+💡 The Problem
+What was the motivation behind this project? What problem were you trying to solve?
+Provide context for the hiring manager. Explain the constraints, requirements, and why this project is technically interesting or difficult.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/project-template/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d7ad4dd510b71039b266a846ea03a96d0280e15c059f051d032c392a3790ffdf.css" integrity="sha256-161N1RC3EDmyZqhG6gOpbQKA4VwFnwUdAyw5KjeQ/98=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/project-template/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top" class="">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="James Brickner (Alt + H)">James Brickner</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work/" title="Work">
+                    <span>Work</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/updates/" title="Updates">
+                    <span>Updates</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/projects/">Projects</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Project Title: High-Level Description
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-05-28 00:00:00 +0000 UTC'>May 28, 2026</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/cover-image.jpg" alt="Cover image description">
+        <figcaption>Optional caption for the cover image</figcaption>
+</figure>
+  <div class="post-content md-content"><blockquote>
+<p><strong>tl;dr:</strong> A 1-2 sentence summary of what you built, why you built it, and the most impressive outcome. (e.g., &ldquo;Designed and built a custom 3D-printable robotic arm capable of sub-millimeter precision, reducing assembly time for X by 40%.&rdquo;)</p>
+</blockquote>
+<h2 id="-project-overview">🎯 Project Overview</h2>
+<ul>
+<li><strong>Role:</strong> Lead Hardware Engineer / Solo Developer etc.</li>
+<li><strong>Timeline:</strong> e.g., Fall 2025 (3 months)</li>
+<li><strong>Tech Stack / Tools:</strong> SolidWorks, C++, Python, Arduino, PCB Design, React</li>
+<li><strong>Code/Repository:</strong> <a href="#">GitHub Link</a> (If public)</li>
+</ul>
+<hr>
+<h2 id="-the-problem">💡 The Problem</h2>
+<p><em>What was the motivation behind this project? What problem were you trying to solve?</em>
+Provide context for the hiring manager. Explain the constraints, requirements, and why this project is technically interesting or difficult.</p>
+<h2 id="-design--architecture">🛠️ Design &amp; Architecture</h2>
+<p><em>How did you approach solving the problem?</em></p>
+<ul>
+<li>Break down the system into its core components (e.g., Mechanical Design, Electrical, Software Architecture).</li>
+<li><strong>Include Diagrams/Images:</strong> System block diagrams, CAD renderings, or software flowcharts are highly recommended here.</li>
+</ul>
+<h3 id="key-component-1-eg-mechanical-assembly--backend-architecture">Key Component 1 (e.g., Mechanical Assembly / Backend Architecture)</h3>
+<p>Explain the engineering decisions made. Why did you choose this specific approach, material, or framework? What trade-offs did you consider?</p>
+<h3 id="key-component-2-eg-pcb-design--frontend-ui">Key Component 2 (e.g., PCB Design / Frontend UI)</h3>
+<p>Discuss another major aspect of the project. Highlight any optimization or specific technical challenges overcome.</p>
+<h2 id="-challenges--iterations">🚧 Challenges &amp; Iterations</h2>
+<p><em>What went wrong and how did you fix it?</em>
+Employers love to see how you handle failure and iterate.</p>
+<ul>
+<li><strong>Challenge:</strong> Describe a specific technical roadblock.</li>
+<li><strong>Solution:</strong> Detail the debugging process, testing, and the ultimate fix. Did you have to pivot your design?</li>
+</ul>
+<h2 id="-results--impact">📊 Results &amp; Impact</h2>
+<p><em>What was the final outcome?</em></p>
+<ul>
+<li>Use <strong>quantifiable metrics</strong> if possible (e.g., &ldquo;Achieved 95% accuracy&rdquo;, &ldquo;Reduced latency by 200ms&rdquo;, &ldquo;Supported up to 50 lbs of load&rdquo;).</li>
+<li>Did it win any awards? (e.g., &ldquo;Voted 1st place in Engineering Showcase out of 50 teams&rdquo;).</li>
+<li>Include photos or videos of the final working product.</li>
+</ul>
+<h2 id="-future-improvements">🔮 Future Improvements</h2>
+<p><em>If you had another 6 months, what would you add or change?</em>
+This shows you can critically evaluate your own work and think ahead.</p>
+<h2 id="-media-gallery">📸 Media Gallery</h2>
+<p><em>Add additional screenshots, CAD models, or videos that didn&rsquo;t fit above.</em></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/engineering/">Engineering</a></li>
+      <li><a href="http://localhost:1313/tags/hardware/">Hardware</a></li>
+      <li><a href="http://localhost:1313/tags/software/">Software</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">James Brickner</a></span>
+
+
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script></body>
+
+</html>

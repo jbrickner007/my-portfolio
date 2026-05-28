@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>School on James Brickner</title>
+    <link>http://localhost:1313/tags/school/</link>
+    <description>Recent content in School on James Brickner</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/school/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Development Project: Blackjack Study Game</title>
+      <link>http://localhost:1313/projects/blackjack-feh/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blackjack-feh/</guid>
+      <description>&lt;p&gt;In my first semester of college, I partnered with fellow engineering student James Butts to create a blackjack game, with the twist that flashcards can be imported to help one study, &amp;ldquo;gamifying&amp;rdquo; the study process.&lt;/p&gt;
+&lt;p&gt;We were ultimately voted as best software in the class of 36 honors students, and presented to a panel at a showcase of the best projects from each section of stuents within the College of Engineering.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

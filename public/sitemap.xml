@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/updateposts/fisher-global-consulting/</loc>
-    <lastmod>2026-05-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/updateposts/burns-and-mcdonnell/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/updateposts/</loc>
-    <lastmod>2026-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/coursework/</loc>
     <lastmod>2026-05-15T18:18:46+02:00</lastmod>
@@ -23,20 +23,20 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-05-15T18:18:46+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/updateposts/fisher-global-consulting/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/updateposts/step/</loc>
     <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/_template/</loc>
+    <loc>http://localhost:1313/tags/baja/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/bprez/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/blackjack-feh/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/baja/</loc>
-    <lastmod>2025-12-08T18:18:46+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/driverselectable/</loc>
-    <lastmod>2025-12-08T18:18:46+02:00</lastmod>
+    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

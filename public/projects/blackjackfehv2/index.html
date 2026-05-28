@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Blackjack Study Game (FEH SDP) | James Brickner</title>
+<meta name="keywords" content="Coursework, Software, C&#43;&#43;, Game Development">
+<meta name="description" content="
+tl;dr: Partnered with a peer to develop a custom Blackjack game in C/C&#43;&#43; using Proteus simulator libraries, featuring custom pixel art and a gamified flashcard study system. Voted best software out of 36 projects.
+
+🎯 Project Overview
+
+Role: Co-Developer (with James Butts)
+Timeline: Spring Semester (First Year)
+Tech Stack / Tools: C/C&#43;&#43;, OSU Proteus Simulator Libraries
+Code/Repository: OSU Project Site
+
+
+💡 The Problem &amp; Motivation
+In our first semester of college, as part of the IBE cornerstone (first year capstone series) projects in the Honors Fundamentals of Engineering curriculum, we were tasked with creating a software application.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/blackjackfehv2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d7ad4dd510b71039b266a846ea03a96d0280e15c059f051d032c392a3790ffdf.css" integrity="sha256-161N1RC3EDmyZqhG6gOpbQKA4VwFnwUdAyw5KjeQ/98=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/blackjackfehv2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top" class="">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="James Brickner (Alt + H)">James Brickner</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/work/" title="Work">
+                    <span>Work</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/updates/" title="Updates">
+                    <span>Updates</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="/projects/">Projects</a>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+</nav>
+    <h1 class="post-title entry-hint-parent">
+      Blackjack Study Game (FEH SDP)
+    </h1>
+    <div class="post-meta">
+
+<span title='2024-12-05 00:00:00 +0000 UTC'>December 5, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/blackjack.png" alt="Blackjack Game Cover">
+        <figcaption>Software Development Project - Fundamentals of Engineering</figcaption>
+</figure>
+  <div class="post-content md-content"><blockquote>
+<p><strong>tl;dr:</strong> Partnered with a peer to develop a custom Blackjack game in C/C++ using Proteus simulator libraries, featuring custom pixel art and a gamified flashcard study system. Voted best software out of 36 projects.</p>
+</blockquote>
+<h2 id="-project-overview">🎯 Project Overview</h2>
+<ul>
+<li><strong>Role:</strong> Co-Developer (with James Butts)</li>
+<li><strong>Timeline:</strong> Spring Semester (First Year)</li>
+<li><strong>Tech Stack / Tools:</strong> C/C++, OSU Proteus Simulator Libraries</li>
+<li><strong>Code/Repository:</strong> <a href="https://u.osu.edu/fehsdp2024jet1020i2/welcome-page/">OSU Project Site</a></li>
+</ul>
+<hr>
+<h2 id="-the-problem--motivation">💡 The Problem &amp; Motivation</h2>
+<p>In our first semester of college, as part of the IBE cornerstone (first year capstone series) projects in the Honors Fundamentals of Engineering curriculum, we were tasked with creating a software application.</p>
+<p>When brainstorming concepts—which included ideas like a Mario-style platformer or a Temple Run endless runner—we evaluated options based on <strong>user-experience (UX)</strong>, <strong>ease of play</strong>, and <strong>straightforward scoring</strong>.</p>
+<p>We ultimately chose to build <strong>Blackjack</strong>. It provided a clean, simple UX reminiscent of a casino, was easy to learn, and had clear scoring rules. Beyond just a game, we added a twist: <strong>gamifying the study process</strong>. Players can import flashcards to study, earning chips by studying which they can then use to play blackjack.</p>
+<p>This game creates value by allowing people (like college students looking for quick entertainment) to experience the thrill of betting without the financial risk, potentially offering a safer alternative to real-money gambling while simultaneously encouraging studying.</p>
+<h2 id="-design--architecture">🛠️ Design &amp; Architecture</h2>
+<p>We utilized the OSU-developed Proteus simulator libraries and wrote the entire program in C/C++.</p>
+<p>The game elements we integrated included:</p>
+<ul>
+<li><strong>Advanced Graphics &amp; Artistry:</strong> We drew custom pixel art for every single card, suit, background, chip, and game layer. We also imported a custom font from a peer&rsquo;s GitHub library since the default Proteus libraries didn&rsquo;t offer enough complexity to change font size or color.</li>
+<li><strong>Random Generation:</strong> We implemented robust shuffling algorithms to ensure the decks and hands were truly randomized for fair gameplay.</li>
+<li><strong>Multiplayer Mechanics:</strong> We developed an automated &ldquo;Dealer&rdquo; logic that the user plays against.</li>
+</ul>
+<h3 id="game-flow">Game Flow</h3>
+<p>The logic behind our game is robust, handling betting, hitting, standing, doubling down, and dealer automation.
+<img alt="Our Flowchart" loading="lazy" src="/sdpflowchart.png"></p>
+<h2 id="-results--impact">📊 Results &amp; Impact</h2>
+<p>Our hard work paid off significantly:</p>
+<ul>
+<li><strong>Best in Class:</strong> We were ultimately voted as the <strong>best software</strong> in our class of 36 honors students.</li>
+<li><strong>Showcase Presentation:</strong> We were selected to present our game to a panel at a showcase featuring the best projects from each section of students within the College of Engineering.</li>
+</ul>
+<h2 id="-media-gallery">📸 Media Gallery</h2>
+<p>Below are some of the screens from our game, including the main menu, the dealer table, and the custom pixel art we designed.</p>
+<p><em>(If you have screenshots like menu.png or dealer.png, you can add them here as <code>![Menu Screen](/path-to-image.png)</code>)</em></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/coursework/">Coursework</a></li>
+      <li><a href="http://localhost:1313/tags/software/">Software</a></li>
+      <li><a href="http://localhost:1313/tags/c&#43;&#43;/">C&#43;&#43;</a></li>
+      <li><a href="http://localhost:1313/tags/game-development/">Game Development</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">James Brickner</a></span>
+
+
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script></body>
+
+</html>
